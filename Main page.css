@@ -1,0 +1,123 @@
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 12px;
+    padding: 12;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo{
+    width: 70px;
+    margin-right: 20px;
+
+}
+
+.main-navigation li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    transition: background-color 0.35;
+}
+
+.nav-button:hover{
+    background-color: black;
+}
+
+.nav-button{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.nav-button:active{
+    background-color: black;
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+
+
+.image-container{
+    
+    text-align:center;    
+}
+
+.image-container img{
+    display: inline-block;
+}
+
+.hero{
+    text-align: center;
+    padding: 155px;
+    background-color: #ff6347;
+    color: white;
+}
+
+.hero h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.order-now{
+    background: linear-gradient(45deg, #ff4500,#ff6347);
+    color: white;
+    border: none;
+    padding: 15px,30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.order-now:hover{
+    background: linear-gradient(45deg,#ff6347,#ff4500);
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+
+}
+
+footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+
+}
+
+footer p{
+    margin: 0;
+}
+
+footer p::before{
+    content: " 🍕";
+}
+
